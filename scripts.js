@@ -1,21 +1,12 @@
 function computerPlay() {
-    switch(Math.random() * 3) {
+    switch(Math.floor(Math.random() * 3)) {
         case 0:
-            return "Rock";
-            break;
+            return 'Rock';
         case 1:
-            return "Paper";
-            break;
+            return 'Paper';
         case 2:
-            return "Scissor";
-            break;
+            return 'Scissor';
     }
 }
 
-console.log(computerPlay());
-console.log(computerPlay());
-console.log(computerPlay());
-console.log(computerPlay());
-console.log(computerPlay());
-console.log(computerPlay());
 console.log(computerPlay());
